@@ -6,7 +6,7 @@ import {env} from "../utils/env.js";
 // import dotenv from "dotenv";
 // dotenv.config();
 
-const PORT = Number(env('PORT', 3000));
+const PORT = Number(env('PORT', '4000'));
 
 export const startServer = () => {
     const app = express();
